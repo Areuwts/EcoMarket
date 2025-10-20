@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+    background-color: rgb(255, 255, 255);
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header .logo {
+  height: 40px;
+}
+
+.carousel-inner {
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  height: 600px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(30%);
+}
+
+/* Botón para catálogo (más adelante) */
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+  color: white;
+}
+#catalogo h2 {
+  font-weight: 600;
+  color: #222;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  font-size: 0.875rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#contacto h2 {
+  font-weight: 600;
+  color: #222;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+.text-violet {
+  color: rgb(0, 0, 0);
+  transition: color 0.3s ease;
+}
+
+.text-violet:hover {
+  color: darkviolet;
+}
+#searchInput {
+  border-radius: 50px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding-left: 20px;
+}
